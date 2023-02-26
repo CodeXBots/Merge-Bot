@@ -16,13 +16,11 @@
  ━━━━━━━━━━━━━━━━━━━━
 ## ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟɪɴᴋ ꜱᴇᴀʀᴄʜ ʙᴏᴛ](https://telegram.dog/Link_Search_Robot)
 
-<a href="https://github.com/MovieVillaYT/Link-Search-Bot/stargazers"><img src="https://img.shields.io/github/stars/MovieVillaYT/Link-Search-Bot?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/MovieVillaYT/Link-Search-Bot/network/members"> <img src="https://img.shields.io/github/forks/MovieVillaYT/Link-Search-Bot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 <a href="https://github.com/MovieVillaYT/Link-Search-Bot/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License- GPL 2.0 license -blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://github.com/MovieVillaYT/Link-Search-Bot"> <img src="https://img.shields.io/github/repo-size/kdbotz/UrlShortner-AutoFilter-Bot?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/MovieVillaYT/Link-Search-Bot/commits/MovieVillaYT"> <img src="https://img.shields.io/github/last-commit/kdbotz/UrlShortner-AutoFilter-Bot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/MovieVillaYT/Link-Search-Bot/commits/MovieVillaYT"> <img src="https://img.shields.io/github/last-commit/MovieVillaYT/Link-Search-Bot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 
 ## 🏷 Environment Variables
   - `API_ID` - Your Telegram API ID.
