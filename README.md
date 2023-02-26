@@ -57,7 +57,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 」─
 </h3>
 <p align="center"><a href="https://railway.app/deploy?template=https://github.com/MovieVillaYT/Link-Search-Bot"">
-     <img height="60px" src="https://railway.app/button.svg">
+     <img height="30px" src="https://railway.app/button.svg">
 </a></p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴇɴᴅᴇʀ 」─
