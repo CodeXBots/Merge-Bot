@@ -7,7 +7,7 @@
 </p>
 
 <h2 align="center">
-  ──「 ʟɪɴᴋ ꜱᴇᴀʀᴄʜ ʙᴏᴛ 」──
+  ─「 ʟɪɴᴋ ꜱᴇᴀʀᴄʜ ʙᴏᴛ 」─
 </h2>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=MOVIEVILLAYT+LINK+SEARCH+BOT+!;CREATED+BY+MOVIEVILLA+TEAM!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
