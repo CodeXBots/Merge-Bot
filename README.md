@@ -2,7 +2,8 @@
 <h2 align="center">
   ─「 ʟɪɴᴋ ꜱᴇᴀʀᴄʜ ʙᴏᴛ 」─
 </h2>
-<p>
+
+
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=LINK+SEARCH+BOT+!;CREATED+BY+TECHNO+LINUS!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
 </p>
 
