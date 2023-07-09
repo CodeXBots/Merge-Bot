@@ -7,7 +7,7 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=LINK+SEARCH+BOT+!;CREATED+BY+NOBI+DEVELOPER!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
 </p>
 
- ━━━━━━━━━━━━━━━━━━━━
+ ━━━━━━━━━━━━━━━━━━
 ## ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟɪɴᴋ ꜱᴇᴀʀᴄʜ ʙᴏᴛ](https://telegram.dog/Link_Search_Robot)
 
 <a href="https://github.com/NobiDeveloper/Link-Search-Bot/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License- GPL 2.0 license -blueviolet?style=for-the-badge" alt="License" /> </a>
