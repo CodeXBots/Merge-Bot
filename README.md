@@ -78,7 +78,7 @@ python3 bot.py
 - <b>[ɴᴏʙɪ ᴅᴇᴠᴇʟᴏᴘᴇʀ](https://github.com/NobiDeveloper)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://youtube.com/@NobiDeveloper) </b>
 - <b>[ʀᴏʏᴀʟ ᴋʀʀɪꜱʜɴᴀ](https://github.com/RoyalKrrishna)  ➻  [ʙᴀsᴇ ᴄᴏᴅᴇ](https://github.com/RoyalKrrishna) </b>
  
-<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://telegram.dog/NobiDeveloper) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʟɪɴᴋ ꜱᴇᴀʀᴄʜ ʙᴏᴛ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
+<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://telegram.dog/NobiDeveloper) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʟɪɴᴋ ꜱᴇᴀʀᴄʜ ʙᴏᴛ ᴜsᴇꜰᴜʟ & ᴩᴏᴡᴇʀꜰᴜʟ 🖤 </b>
 
 
 
