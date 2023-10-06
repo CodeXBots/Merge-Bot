@@ -43,11 +43,7 @@ async def message_handler(event):
 
         # Force Subscription
         if  not await get_user_join(event.sender_id):
-            haha = await event.reply(f'''**Hey! {event.sender.first_name} 😃**
-
-**You Have To Join Our Update Channel To Use Me ✅**
-
-**Click Bellow Button To Join Now.👇🏻**''', buttons=Button.url('🍿Updates Channel🍿', f'https://telegram.me/{Config.UPDATES_CHANNEL_USERNAME}'))
+            haha = await event.reply(f'''**𝑱𝒐𝒊𝒏  𝑶𝒖𝒓  𝑼𝒑𝒅𝒂𝒕𝒆  𝑪𝒉𝒂𝒏𝒏𝒆𝒍  𝑻𝒐  𝑼𝒔𝒆  𝑻𝒉𝒊𝒔  𝑩𝒐𝒕  😊**''', buttons=Button.url(' 🔥  𝚄𝙿𝙳𝙰𝚃𝙴  𝙲𝙷𝙰𝙽𝙽𝙴𝙻  🔥 ', f'https://t.me/{Config.UPDATES_CHANNEL_USERNAME}'))
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
             return await haha.delete()
 
@@ -60,7 +56,7 @@ async def message_handler(event):
         if not args:
             return
 
-        txt = await event.reply('**Searching For "{}" 🔍**'.format(event.text))
+        txt = await event.reply('**ꜱᴇᴀʀᴄʜɪɴɢ ꜰᴏʀ "{}" 🔍**'.format(event.text))
 
 
 
@@ -93,8 +89,7 @@ async def message_handler(event):
                 f_text = re.sub("__|\*", "", msg.text)
 
                 f_text = await link_to_hyperlink(f_text)
-                answer += f'\n\n\n✅ PAGE {c}:\n\n━━━━━━━━━\n\n' + '' + f_text.split("\n", 1)[0] + '' + '\n\n' + '' + f_text.split("\n", 2)[
-                    -1] + "\n\n"
+                answer += f'\n\n𝙿𝙰𝙶𝙴 {c} ✅\n\n' + '' + f_text.split("\n", 1)[0] + '' + '\n\n' + '' + f_text.split("\n", 2)[-1] + "\n\n"
                 
             # break
         finalsearch = []
@@ -102,16 +97,10 @@ async def message_handler(event):
             finalsearch.append(msg)
 
         if c <= 0:
-            answer = f'''**No Results Found For {event.text}**
+            answer = f'''𝚃𝙷𝙸𝚂  𝙼𝙾𝚅𝙸𝙴  𝙸𝚂  𝙽𝙾𝚃  𝚈𝙴𝚃  𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳  𝙾𝚁  𝙰𝙳𝙳𝙴𝙳  𝚃𝙾  𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴.'''
 
-**Type Only Movie Name 💬**
-**Check Spelling On** [Google](http://www.google.com/search?q={event.text.replace(' ', '%20')}%20Movie) 🔍
-    '''
-
-            newbutton = [Button.url('Click To Check Spelling ✅',
-                                    f'http://www.google.com/search?q={event.text.replace(" ", "%20")}%20Movie')], [
-                            Button.url('Click To Check Release Date 📅',
-                                    f'http://www.google.com/search?q={event.text.replace(" ", "%20")}%20Movie%20Release%20Date')]
+            newbutton = [Button.url('ʀᴇǫᴜᴇꜱᴛ  ᴛᴏ  ᴏᴡɴᴇʀ  ❣️',
+                                    f'https://telegram.me/nancyji_bot')]
             await txt.delete()
             result = await event.reply(answer, buttons=newbutton, link_preview=False)
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
@@ -130,8 +119,7 @@ async def message_handler(event):
             title=event.text,
             author=Config.BOT_USERNAME
         )
-        message = f'**Click Here 👇 For "{event.text}"**\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}]({tgraph_result})'
-
+        message = f'**ᴄʟɪᴄᴋ  ʜᴇʀᴇ 👇**\n\n[📽️ {str(event.text).upper()}\n🔎 {str("Click me for results").upper()}]({tgraph_result})'
         await txt.delete()
         result = await event.reply(message, link_preview=False)
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
@@ -141,7 +129,7 @@ async def message_handler(event):
     except Exception as e:
         print(e)
         await txt.delete()
-        result = await event.reply("Some error occurred while searching for movie")
+        result = await event.reply("𝚃𝙷𝙸𝚂  𝙼𝙾𝚅𝙸𝙴  𝙸𝚂  𝙽𝙾𝚃  𝚈𝙴𝚃  𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳  𝙾𝚁  𝙰𝙳𝙳𝙴𝙳  𝚃𝙾  𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴.")
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
         await event.delete() 
         return await result.delete()
