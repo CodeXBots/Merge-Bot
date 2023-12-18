@@ -41,7 +41,6 @@ async def message_handler(event):
         print("\n")
         print("Message Received: " + event.text)
 
-        # Force Subscription
         if  not await get_user_join(event.sender_id):
             haha = await event.reply(f'''**𝑱𝒐𝒊𝒏  𝑶𝒖𝒓  𝑼𝒑𝒅𝒂𝒕𝒆  𝑪𝒉𝒂𝒏𝒏𝒆𝒍  𝑻𝒐  𝑼𝒔𝒆  𝑻𝒉𝒊𝒔  𝑩𝒐𝒕  😊**''', buttons=Button.url(' 🔥  𝚄𝙿𝙳𝙰𝚃𝙴  𝙲𝙷𝙰𝙽𝙽𝙴𝙻  🔥 ', f'https://t.me/{Config.UPDATES_CHANNEL_USERNAME}'))
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
@@ -91,7 +90,6 @@ async def message_handler(event):
                 f_text = await link_to_hyperlink(f_text)
                 answer += f'\n\n𝙿𝙰𝙶𝙴 {c} ✅\n\n' + '' + f_text.split("\n", 1)[0] + '' + '\n\n' + '' + f_text.split("\n", 2)[-1] + "\n\n"
                 
-            # break
         finalsearch = []
         async for msg in AsyncIter(search):
             finalsearch.append(msg)
@@ -100,7 +98,7 @@ async def message_handler(event):
             answer = f'''𝚃𝙷𝙸𝚂  𝙼𝙾𝚅𝙸𝙴  𝙸𝚂  𝙽𝙾𝚃  𝚈𝙴𝚃  𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳  𝙾𝚁  𝙰𝙳𝙳𝙴𝙳  𝚃𝙾  𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴.'''
 
             newbutton = [Button.url('ʀᴇǫᴜᴇꜱᴛ  ᴛᴏ  ᴏᴡɴᴇʀ  ❣️',
-                                    f'https://telegram.me/nancyji_bot')]
+                                    f'https://telegram.me/NobiDeveloperr')]
             await txt.delete()
             result = await event.reply(answer, buttons=newbutton, link_preview=False)
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
@@ -120,10 +118,10 @@ async def message_handler(event):
             author=Config.BOT_USERNAME
         )
         message = f'**ᴄʟɪᴄᴋ  ʜᴇʀᴇ 👇**\n\n[📽️ {str(event.text).upper()}\n🔎 {str("Click me for results").upper()}]({tgraph_result})'
+        
         await txt.delete()
         result = await event.reply(message, link_preview=False)
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
-        # await event.delete()
         return await result.delete()
 
     except Exception as e:
@@ -134,13 +132,10 @@ async def message_handler(event):
         await event.delete() 
         return await result.delete()
 
-
 async def escape_url(str):
     escape_url = urllib.parse.quote(str)
     return escape_url
 
-
-# Bot Client for Inline Search
 Bot = Client(
     session_name=Config.BOT_SESSION_NAME,
     api_id=Config.API_ID,
@@ -160,7 +155,7 @@ print(f"""
  _____________________________________________   
 |                                             |  
 |          Deployed Successfully              |  
-|              Join @MovieVillaYT               |
+|              Join @{Config.UPDATES_CHANNEL_USERNAME}                 |
 |_____________________________________________|
     """)
 
@@ -168,10 +163,7 @@ with tbot, client:
     tbot.run_until_disconnected()
     client.run_until_disconnected()
 
-# Loop Clients till Disconnects
 idle()
-# After Disconnects,
-# Stop Clients
 print()
 print("------------------------ Stopped Services ------------------------")
 Bot.stop()
