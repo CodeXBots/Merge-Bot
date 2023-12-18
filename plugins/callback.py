@@ -68,12 +68,12 @@ async def request_access_handler(c:Client,query: CallbackQuery):
     else: 
         REPLY_MARKUP = InlineKeyboardMarkup([
             [
-                InlineKeyboardButton('Allow', callback_data=f'give_access#{query.message.chat.id}#{query.from_user.id}'),
-                InlineKeyboardButton('Deny', callback_data=f'deny_access#{query.message.chat.id}#{query.from_user.id}'),
+                InlineKeyboardButton('ᴀʟʟᴏᴡ', callback_data=f'give_access#{query.message.chat.id}#{query.from_user.id}'),
+                InlineKeyboardButton('ᴅᴇɴʏ', callback_data=f'deny_access#{query.message.chat.id}#{query.from_user.id}'),
             ],
             [
                 
-                InlineKeyboardButton('Close', callback_data=f'delete'),
+                InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data=f'delete'),
             ],
 
         ])      
@@ -97,11 +97,14 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://telegram.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton(' ʀᴇǫᴜᴇꜱᴛ  ᴛᴏ  ᴏᴡɴᴇʀ  ❣️ ',url='https://telegram.me/NobiDeveloperSupport')
             ],
                     [
-                        InlineKeyboardButton("Home", callback_data="gohome"),
-                        InlineKeyboardButton("Help", callback_data="Help_msg")
+            InlineKeyboardButton(' ʙᴜʏ   ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ   😊 ',url='https://telegram.me/NobiDeveloperr')
+            ],
+                    [
+                        InlineKeyboardButton(' 🔮    ʜᴇʟᴘ ',url='https://telegram.me/NobiDeveloper'),
+                        InlineKeyboardButton(' 🏠    ʜᴏᴍᴇ ', callback_data="gohome")
                     ]
                 ]
             ),
@@ -128,17 +131,18 @@ async def button(bot, cmd: CallbackQuery):
             await cmd.message.edit(
             text=Config.HOME_TEXT.format(cmd.from_user.mention),
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                                       [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://telegram.me/{Config.BOT_USERNAME}?startgroup=true')
+            reply_markup=InlineKeyboardMarkup([
+            [
+            InlineKeyboardButton(' ➕     ᴀᴅᴅ  ᴍᴇ  ᴛᴏ  ʏᴏᴜʀ  ɢʀᴏᴜᴘ     ➕ ', url=f'http://telegram.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
-                    [
-                        InlineKeyboardButton("About", callback_data="About_msg"),
-                        InlineKeyboardButton("Help", callback_data="Help_msg")
-                    ]
-                ]
-            ),
+            [
+            InlineKeyboardButton(' ⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚ ', url='https://youtube.com/@NobiDeveloper')
+            ],
+            [
+            InlineKeyboardButton(' 🔍   ꜱᴇᴀʀᴄʜ ', url='https://telegram.me/AllRequestGroups'),
+            InlineKeyboardButton(' 📝   ᴀʙᴏᴜᴛ ', callback_data="About_msg")
+            ]
+        ]),
             parse_mode="html"
         )
 
@@ -149,7 +153,3 @@ async def button(bot, cmd: CallbackQuery):
             return
         elif "cancel_removeapi" in cb_data:
             await cmd.message.delete()
-
-
-
-
