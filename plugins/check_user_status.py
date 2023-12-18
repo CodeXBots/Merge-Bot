@@ -1,3 +1,4 @@
+# (c) @NobiDeveloper
 from pyrogram import Client, filters
 import datetime
 from configs import Config
@@ -13,7 +14,11 @@ async def handle_user_status(bot:Client, cmd:Message):
         await db.add_user(chat_id)
         await bot.send_message(
             Config.LOG_CHANNEL,
-            f"#NEW_USER: \n\nNew User [{cmd.from_user.first_name}](tg://user?id={cmd.from_user.id}) started @{Config.BOT_USERNAME} !!"
+            f"""#𝐍𝐞𝐰𝐔𝐬𝐞𝐫  
+    
+<b>᚛› 𝐈𝐃 - {cmd.from_user.id}</b>
+<b>᚛› 𝐍𝐚𝐦𝐞 - {cmd.from_user.first_name}</b>
+"""
         )
 
     ban_status = await db.get_ban_status(chat_id)
