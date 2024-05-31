@@ -1,6 +1,6 @@
 {
-    "name": "This is Link Search Bot by @MovieVillaYT",
-    "description": "This is Inline Channel Messages Search Bot by @MovieVillaBots",
+    "name": "This is Link Search Bot by @CodeXBots",
+    "description": "This is Inline Channel Messages Search Bot by @CodeXBots",
     "keywords": [
         "telegram",
         "channel",
@@ -8,9 +8,9 @@
         "search",
         "bot"
     ],
-    "repository": "https://github.com/MovieVillaYT/Link-Search-Bot",
-    "website": "https://telegram.dog/MovieVillaYT",
-    "success_url": "https://telegram.me/MovieVillaBots",
+    "repository": "https://github.com/CodeXBots/Link-Search-Bot",
+    "website": "https://telegram.dog/RahulReviews",
+    "success_url": "https://telegram.me/CodeXBro",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org"
