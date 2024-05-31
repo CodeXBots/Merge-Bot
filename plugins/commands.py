@@ -37,7 +37,7 @@ async def start_handler(_,event: Message):
             InlineKeyboardButton(' ➕     ᴀᴅᴅ  ᴍᴇ  ᴛᴏ  ʏᴏᴜʀ  ɢʀᴏᴜᴘ     ➕ ', url=f'http://telegram.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
             [
-            InlineKeyboardButton(' ⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚ ', url='https://youtube.com/@NobiDeveloper')
+            InlineKeyboardButton(' ⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚ ', url='https://youtube.com/@RahulReviews')
             ],
             [
             InlineKeyboardButton(' 🔍   ꜱᴇᴀʀᴄʜ ', url='https://telegram.me/AllRequestGroups'),
