@@ -97,13 +97,13 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton(' ʀᴇǫᴜᴇꜱᴛ  ᴛᴏ  ᴏᴡɴᴇʀ  ❣️ ',url='https://telegram.me/NobiDeveloperSupport')
+            InlineKeyboardButton(' ʀᴇǫᴜᴇꜱᴛ  ᴛᴏ  ᴏᴡɴᴇʀ  ❣️ ',url='https://telegram.me/CodeXSupport')
             ],
                     [
-            InlineKeyboardButton(' ʙᴜʏ   ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ   😊 ',url='https://telegram.me/NobiDeveloperr')
+            InlineKeyboardButton(' ʙᴜʏ   ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ   😊 ',url='https://telegram.me/CodeXBro')
             ],
                     [
-                        InlineKeyboardButton(' 🔮    ʜᴇʟᴘ ',url='https://telegram.me/NobiDeveloper'),
+                        InlineKeyboardButton(' 🔮    ʜᴇʟᴘ ',url='https://telegram.me/RahulReviews'),
                         InlineKeyboardButton(' 🏠    ʜᴏᴍᴇ ', callback_data="gohome")
                     ]
                 ]
@@ -136,7 +136,7 @@ async def button(bot, cmd: CallbackQuery):
             InlineKeyboardButton(' ➕     ᴀᴅᴅ  ᴍᴇ  ᴛᴏ  ʏᴏᴜʀ  ɢʀᴏᴜᴘ     ➕ ', url=f'http://telegram.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
             [
-            InlineKeyboardButton(' ⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚ ', url='https://youtube.com/@NobiDeveloper')
+            InlineKeyboardButton(' ⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚ ', url='https://youtube.com/@RahulReviews')
             ],
             [
             InlineKeyboardButton(' 🔍   ꜱᴇᴀʀᴄʜ ', url='https://telegram.me/AllRequestGroups'),
