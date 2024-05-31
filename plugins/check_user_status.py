@@ -1,4 +1,4 @@
-# (c) @NobiDeveloper
+# (c) @CodeXBots
 from pyrogram import Client, filters
 import datetime
 from configs import Config
