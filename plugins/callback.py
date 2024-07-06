@@ -139,7 +139,7 @@ async def button(bot, cmd: CallbackQuery):
             InlineKeyboardButton(' ⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚ ', url='https://youtube.com/@RahulReviews')
             ],
             [
-            InlineKeyboardButton(' 🔍   ꜱᴇᴀʀᴄʜ ', url='https://telegram.me/AllRequestGroups'),
+            InlineKeyboardButton(' 🔍   ꜱᴇᴀʀᴄʜ ', url='https://telegram.me/RahulReviewsYT'),
             InlineKeyboardButton(' 📝   ᴀʙᴏᴜᴛ ', callback_data="About_msg")
             ]
         ]),
