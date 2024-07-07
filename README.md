@@ -8,7 +8,6 @@
 </p>
 
  ━━━━━━━━━━━━━━━━━━
-## ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟɪɴᴋ ꜱᴇᴀʀᴄʜ ʙᴏᴛ](https://telegram.me/CodexBro)
 
 <a href="https://github.com/CodeXBots/Link-Search-Bot/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License- GPL 2.0 license -blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
