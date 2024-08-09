@@ -137,7 +137,7 @@ async def escape_url(str):
     return escape_url
 
 Bot = Client(
-    session_name=Config.BOT_SESSION_NAME,
+    name=Config.BOT_SESSION_NAME,
     api_id=Config.API_ID,
     api_hash=Config.API_HASH,
     bot_token=Config.BOT_TOKEN,
