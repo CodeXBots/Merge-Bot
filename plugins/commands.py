@@ -40,7 +40,7 @@ async def start_handler(_,event: Message):
             InlineKeyboardButton(' ⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚ ', url='https://youtube.com/@RahulReviews')
             ],
             [
-            InlineKeyboardButton(' 🔍   ꜱᴇᴀʀᴄʜ ', url='https://telegram.me/AllRequestGroups'),
+            InlineKeyboardButton(' 🔍   ꜱᴇᴀʀᴄʜ ', url='https://telegram.me/RahulReviews'),
             InlineKeyboardButton(' 📝   ᴀʙᴏᴜᴛ ', callback_data="About_msg")
             ]
         ])
