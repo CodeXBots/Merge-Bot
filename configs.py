@@ -17,7 +17,7 @@ class Config(object):
 
 ɪ  ᴄᴀɴ  ᴘʀᴏᴠɪᴅᴇ  ᴍᴏᴠɪᴇs  ᴀɴᴅ  sᴇʀɪᴇs,
 ᴊᴜsᴛ  ᴀᴅᴅ  ᴍᴇ  ᴛᴏ  ʏᴏᴜʀ  ɢʀᴏᴜᴘ  ᴀɴᴅ  ᴇɴᴊᴏʏ  😍''')
-    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/7de1d9ff50461400a22b6.jpg")
+    START_PHOTO = os.getenv("START_PHOTO", "https://graph.org/file/71d035f1080a16f29ecf2.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", START_MSG)
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", None)
     DATABASE_URL = os.getenv("DATABASE_URL", "")
