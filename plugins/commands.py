@@ -34,14 +34,14 @@ async def start_handler(_,event: Message):
         caption=Config.START_MSG.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [
-            InlineKeyboardButton(' ➕     ᴀᴅᴅ  ᴍᴇ  ᴛᴏ  ʏᴏᴜʀ  ɢʀᴏᴜᴘ     ➕ ', url=f'http://telegram.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('➕     ᴀᴅᴅ  ᴍᴇ  ᴛᴏ  ʏᴏᴜʀ  ɢʀᴏᴜᴘ     ➕', url=f'http://telegram.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
             [
-            InlineKeyboardButton(' ⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚ ', url='https://youtube.com/@RahulReviews')
+            InlineKeyboardButton('⚚     ɱᴀɪɴ   ᴄʜᴀɴɴᴇʟ     ⚚', url='https://telegram.me/RahulReviewsYT')
             ],
             [
-            InlineKeyboardButton(' 🔍   ꜱᴇᴀʀᴄʜ ', url='https://telegram.me/RahulReviews'),
-            InlineKeyboardButton(' 📝   ᴀʙᴏᴜᴛ ', callback_data="About_msg")
+            InlineKeyboardButton('🔍   ꜱᴇᴀʀᴄʜ', url='https://youtube.com/@RahulReviews'),
+            InlineKeyboardButton('📝   ᴀʙᴏᴜᴛ', callback_data="About_msg")
             ]
         ])
     )
