@@ -35,7 +35,7 @@
 * `OWNER_USERNAME` - Your username without `@`
 * `PASSWORD` - Password to login bot. 
 * `LOGCHANNEL` - Log Channel ID.
-* `USER_SESSION_STRING` - Premium account session string to upload upto 4GB
+* `USER_SESSION_STRING` - Premium account pyrogram session string to upload upto 4GB
 </details>
 </b>
 
