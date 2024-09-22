@@ -1,85 +1,112 @@
+<h1 align="center">
+ <b><a href="https://youtu.be/kuW1DwrHC1M" target="/blank">Merge Bot</a>
+</h1>
 
-<h2 align="center">
-  ─「 ʟɪɴᴋ ꜱᴇᴀʀᴄʜ ʙᴏᴛ 」─
-</h2>
+<p align="center">🩷 Thanks for Being Here 🩷</p>
 
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=LINK+SEARCH+BOT+!;CREATED+BY+CodeXBots!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
-</p>
 
- ━━━━━━━━━━━━━━━━━━
+### 🥰 FEATURES
 
-<a href="https://github.com/CodeXBots/Link-Search-Bot/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License- GPL 2.0 license -blueviolet?style=for-the-badge" alt="License" /> </a>
-<a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/CodeXBots/Link-Search-Bot"> <img src="https://img.shields.io/github/repo-size/CodeXBots/Link-Search-Bot?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/CodeXBots/Link-Search-Bot/commits/CodeXBots"> <img src="https://img.shields.io/github/last-commit/CodeXBots/Link-Search-Bot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<details><summary>Tap On Me For Bot Features</summary>
 
-## 🏷 Environment Variables
-  - `API_ID` - Your Telegram API ID.
-  - `API_HASH` - Your Telegram API HASH.
-  - `BOT_TOKEN` - Get it from BotFather.
-  - `BOT_OWNER` - Your Telegram ID
-  - `UPDATES_CHANNEL` - Force subscribe channel ID
-  - `UPDATES_CHANNEL_USERNAME` - Force subscribe channel username without `@`
-  - `LOG_CHANNEL` - Log Channel ID.
-  - `DATABASE_URL` - Mongodb database here
-  - `CHANNEL_ID` - Your database channel ID
-  - `USER_SESSION_STRING` - Your Telethon String Session 
+- Connect multiple channel
+- Set fsub
+- No telegram message length limit
+- Auto delete 
+- Fully modified repo
+- Deploy To Koyeb + Heroku + Railway.
+- Developer Service 24x7.
+</details>
 
+
+### 🔥 VARIABLES
+
+<details><summary>Tap On Me For Environment Variable</summary>
+
+* `TELEGRAM_API` - Your Telegram API ID.
+* `API_HASH` - Your Telegram API HASH.
+* `BOT_TOKEN` - Get it from BotFather.
+* `OWNER` - Your ID
+* `DATABASE_URL` - Enter Mongodb database URL
+* `OWNER_USERNAME` - Your username without `@`
+* `PASSWORD` - Password to login bot. 
+* `LOGCHANNEL` - Log Channel ID.
+* `USER_SESSION_STRING` - Premium account session string to upload upto 4GB
+</details>
+</b>
+
+### 😍 COMMANDS
+
+<b><details><summary>Tap On Me For Commands</summary>
+```
+start - Start The Bot
+extract - Extract audios/subtitles from telegram media
+showthumbnail - Shows your thumbnail
+deletethumbnail - Delete your thumbnail
+settings - User Settings to manage different modes
+help - How to use Bot
+about - About the bot
+login - Access bot
+ban - (admin only) Ban any user
+unban - (admin only) Unban any user
+log - (admin only) Get log file from server
+broadcast - (admin only) Broadcast message to bot users
+stats - (admin only) check bots stats
+```
+</b>
+</details>
+
+### 📶 DEPLOYEMENT
 <details>
-<summary><h3>
-- <b> ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅs </b>
-</h3></summary>
+<summary><b>Tap On Me For Deply</summary>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-<p align="center"><a href="https://github.com/CodeXBots/Link-Search-Bot">
+<p align="center"><a href="https://github.com/CodeXBots/Merge-Bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy On Heroku">
 </a></p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴋᴏʏᴇʙ 」─
 </h3>
-<p align="center"><a href="https://app.koyeb.com/deploy?type=git&repository=github.com/CodeXBots/Link-Search-Bot&branch=main&name=Link-Search-Bot">
+<p align="center"><a href="https://app.koyeb.com/deploy?type=git&repository=github.com/CodeXBots/Merge-Bot&branch=main&name=Merge-Bot">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy On Koyeb">
 </a></p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 」─
 </h3>
-<p align="center"><a href="https://railway.app/deploy?template=https://github.com/CodeXBots/Link-Search-Bot"">
+<p align="center"><a href="https://railway.app/deploy?template=https://github.com/CodeXBots/Merge-Bot">
      <img height="45px" src="https://railway.app/button.svg">
 </a></p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴇɴᴅᴇʀ 」─
 </h3>
-<p align="center"><a href="https://render.com/deploy?repo=https://github.com/CodeXBots/Link-Search-Bot">
+<p align="center"><a href="https://render.com/deploy?repo=https://github.com/CodeXBots/Merge-Bot">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a></p>
-<h3 align="center">
-    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴠᴘs 」─
-</h3>
-<p>
-<pre>
-git clone https://github.com/CodeXBots/Link-Search-Bot
-# Install Packages
-pip3 install -U -r requirements.txt
-Edit info.py with variables as given below then run bot
-python3 bot.py
-</pre>
-</p>
 </details>
 
-<h3 align="center">
-    ─「 ᴄʀᴇᴅɪᴛs 」─
-</h3>
+### 🥳 CREDIT
 
-- <b>[ʀᴀʜᴜʟ](https://github.com/CodeXBots)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://youtube.com/@RahulReviews) </b>
-- <b>[ʀᴏʏᴀʟ ᴋʀʀɪꜱʜɴᴀ](https://github.com/RoyalKrrishna)  ➻  [ʙᴀsᴇ ᴄᴏᴅᴇ](https://github.com/RoyalKrrishna) </b>
- 
-<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://telegram.me/CodeXSupport) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʟɪɴᴋ ꜱᴇᴀʀᴄʜ ʙᴏᴛ ᴜsᴇꜰᴜʟ & ᴩᴏᴡᴇʀꜰᴜʟ 🖤 </b>
+<details><summary>Tap On Me For Credit</summary>
 
-##  𝑵𝒐𝒕𝒆
 
-ᴊᴜꜱᴛ ꜰᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ᴇᴅɪᴛ ᴀꜱ ᴘᴇʀ ʏᴏᴜʀ ɴᴇᴇᴅꜱ.
+💝 Credit Goes To [CodeXBots](https://github.com/CodeXBots)
 
+💘 Base Repo Credit [yashoswalyo](https://github.com/yashoswalyo)
+
+💖 And Thank You So Much To All Who Help In This Journey.
+</details>
+
+### 💕 CONTACT DEVELOPER
+
+- [Rahul](https://telegram.me/CodeXBro)
+
+### ☕ BUY ME A COFFEE
+- [PayPal](https://paypal.me/RahulReviews)
+- [UPI](https://codexbots.github.io/Donate)
+
+### 📌 NOTE
+
+ᴊᴜꜱᴛ ꜰᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ᴇᴅɪᴛ ᴀꜱ ᴘᴇʀ ʏᴏᴜʀ ɴᴇᴇᴅꜱ.</b>
