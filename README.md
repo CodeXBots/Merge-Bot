@@ -10,10 +10,13 @@
 
 <details><summary>Tap On Me For Bot Features</summary>
 
-- Connect multiple channel
-- Set fsub
-- No telegram message length limit
-- Auto delete 
+- Add multiple audio tracks to a video
+- Add multiple subtitles tracks to a video
+- Merge Upto 10 videos at once
+- Log channel to store all files
+- Upload as document/video
+- Custom thumbnail support
+- Upload files to Drive
 - Fully modified repo
 - Deploy To Koyeb + Heroku + Railway.
 - Developer Service 24x7.
