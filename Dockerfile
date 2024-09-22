@@ -1,16 +1,24 @@
-FROM python:latest
+FROM ubuntu:24.04
 
-RUN apt update && apt upgrade -y
-RUN apt install git curl python3-pip ffmpeg -y
+WORKDIR /usr/src/mergebot
+RUN chmod 777 /usr/src/mergebot
 
-RUN pip3 install -U pip
+RUN apt-get -y update \
+    && apt-get -y upgrade \
+    && apt-get install apt-utils -y \ 
+    && apt-get install -y python3-full python3-pip git wget curl pv jq ffmpeg neofetch mediainfo \
+    && apt-get clean
 
-COPY requirements.txt /requirements.txt
+## To enable rclone upload, uncommnet the following line; 
+# RUN curl https://rclone.org/install.sh | bash
 
-RUN cd /
-RUN pip3 install -U -r requirements.txt
-RUN mkdir /Link-Search-Bot
-WORKDIR /Link-Search-Bot
-COPY start.sh /start.sh
+RUN python3 -m venv venv && chmod +x venv/bin/python
 
-CMD ["/bin/bash", "/start.sh"]
+COPY requirements.txt .
+RUN venv/bin/python -m pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+RUN chmod +x start.sh
+
+CMD ["bash","start.sh"]
