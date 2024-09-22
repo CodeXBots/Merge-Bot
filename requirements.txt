@@ -9,3 +9,6 @@ pyromod
 python-dotenv
 requests
 TgCrypto
+gunicorn
+Flask
+aiohttp
